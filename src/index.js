@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import Basic from './basic/Basic';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
+import CenteredLogo from './centeredLogo/CenteredLogo';
+import LogoAbove from './logoAbove/LogoAbove';
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -15,6 +17,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/basic" element={<Basic />} />
+        <Route path="/centered-logo" element={<CenteredLogo />} />
+        <Route path="/logo-above" element={<LogoAbove />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
