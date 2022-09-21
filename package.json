@@ -1,8 +1,13 @@
 {
-  "name": "mdb-react-template",
-  "version": "4.0.0",
-  "description": "template for mdb-react-ui-kit",
-  "private": true,
+  "name": "@mdbootstrap/react-logo",
+  "version": "1.0.0",
+  "description": "Responsive React Logo built with Bootstrap 5. Navbar with logo, logo centered in Navbar, logo above the navbar, logo carousel & more.",
+  "homepage": "https://mdbootstrap.com/docs/react/extended/logo/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdbootstrap/logo"
+  },
+  "private": false,
   "dependencies": {
     "mdb-react-ui-kit": "^4.0.0",
     "react": "^18.1.0",
@@ -19,7 +24,15 @@
   },
   "keywords": [
     "template",
-    "react"
+    "react",
+    "bootstrap",
+    "bootstrap5",
+    "bootstrap-template",
+    "bootstrap-theme",
+    "css",
+    "html",
+    "jsx",
+    "js"
   ],
   "author": "MDBootstrap",
   "license": "MIT",
